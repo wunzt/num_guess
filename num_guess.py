@@ -9,6 +9,6 @@ while guess != integer:
     elif guess > integer:
         guess = int(input("Too high - try again:\n"))
 if tracker == 1:
-    print("You guessed it in ", tracker, " try.")
+    print("You guessed it in", tracker, "try.")
 elif tracker > 1:
-    print("You guessed it in ", tracker, " tries.")
+    print("You guessed it in", tracker, "tries.")
