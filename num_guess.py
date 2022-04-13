@@ -1,5 +1,4 @@
-print("Enter the integer for the player to guess.")
-integer = int(input())
+integer = int(input("Enter the integer for the player to guess.\n"))
 print("Enter your guess.")
 guess = int(input())
 tracker = 1
